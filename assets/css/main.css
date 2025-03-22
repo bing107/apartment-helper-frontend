@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+
+.fade-scale-enter-active {
+    transition: all 0.3s ease-out;
+  }
+  .fade-scale-leave-active {
+    transition: all 0.2s ease-in;
+  }
+  .fade-scale-enter-from,
+  .fade-scale-leave-to {
+    opacity: 0;
+    transform: scale(0.9);
+  }
