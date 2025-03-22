@@ -32,7 +32,8 @@
 </template>
 
 <script setup>
-import { onMounted, ref, useRoute } from "vue";
+import { onMounted, ref } from "vue";
+import { useRoute } from "#app";
 
 const route = useRoute();
 const emailKey = "adminKey";
