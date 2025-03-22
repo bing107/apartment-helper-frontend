@@ -32,11 +32,25 @@
 </template>
 
 <script setup>
-import { onMounted, ref } from "vue";
+import { onMounted, ref, useRoute } from "vue";
 
+const route = useRoute();
+const emailKey = "adminKey";
+const valid = ref(false);
 const signups = ref([]);
 const loading = ref(true);
 const error = ref(false);
+
+const ADMIN_KEY = "mySuperSecret123";
+
+onMounted(() => {
+  if (route.query[emailKey] === ADMIN_KEY) {
+    valid.value = true;
+    fetchSignups();
+  } else {
+    loading.value = false;
+  }
+});
 
 const fetchSignups = async () => {
   try {
@@ -48,9 +62,5 @@ const fetchSignups = async () => {
   }
 };
 
-onMounted(fetchSignups);
-
-const formatDate = (dateStr) => {
-  return new Date(dateStr).toLocaleString("de-DE");
-};
+const formatDate = (dateStr) => new Date(dateStr).toLocaleString("de-DE");
 </script>
