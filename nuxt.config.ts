@@ -7,6 +7,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       apiBase: "https://apartment-helper-backend.fly.dev/api",
+      adminKey: process.env.NUXT_ADMIN_KEY || "defaultSecret",
     },
   },
   css: ["~/assets/css/main.css"],

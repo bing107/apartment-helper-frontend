@@ -36,13 +36,15 @@ import { onMounted, ref } from "vue";
 import { useRoute } from "#app";
 
 const route = useRoute();
+const config = useRuntimeConfig();
+
 const emailKey = "adminKey";
 const valid = ref(false);
 const signups = ref([]);
 const loading = ref(true);
 const error = ref(false);
 
-const ADMIN_KEY = "mySuperSecret123";
+const ADMIN_KEY = config.public.adminKey;
 
 onMounted(() => {
   if (route.query[emailKey] === ADMIN_KEY) {
