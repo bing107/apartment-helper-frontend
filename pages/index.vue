@@ -97,6 +97,7 @@ const submitEmail = async () => {
     error.value = true;
   } finally {
     loading.value = false;
+    window.location.href = "https://tally.so/r/mBeEVQ";
   }
 };
 </script>
