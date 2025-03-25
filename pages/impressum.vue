@@ -6,7 +6,7 @@
     <p><strong>Angaben gemäß § 5 TMG</strong></p>
     <p>
       KZH Enterprise<br />
-      Inhaber: Hassan Umair Syed<br />
+      Inhaber: Hassan Syed<br />
       Konrad-Wolf-Straße 80<br />
       13055 Berlin<br />
       Deutschland
@@ -16,16 +16,16 @@
       <strong>Kontakt:</strong><br />
       E-Mail:
       <a
-        href="mailto:hassan.umair@gmail.com"
+        href="mailto:hello@getyourapartment.com"
         class="text-blue-600 hover:underline"
-        >hassan.umair@gmail.com</a
+        >hello@getyourapartment.com</a
       >
     </p>
 
     <p class="mt-4">
       <strong>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</strong
       ><br />
-      Hassan Umair Syed<br />
+      Hassan Syed<br />
       Konrad-Wolf-Straße 80<br />
       13055 Berlin
     </p>
