@@ -52,5 +52,10 @@
         https://ec.europa.eu/consumers/odr
       </a>
     </p>
+
+    <p class="text-xs text-gray-500 mt-2">
+      Get Your Apartment wird betrieben von <strong>KZH Enterprise</strong>,
+      einem in Berlin eingetragenen Einzelunternehmen.
+    </p>
   </div>
 </template>
