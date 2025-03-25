@@ -189,6 +189,21 @@
         </div>
       </div>
     </section>
+
+    <!-- Footer -->
+    <footer
+      class="bg-white border-t border-gray-200 py-8 px-6 mt-20 text-sm text-gray-600"
+    >
+      <div
+        class="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4"
+      >
+        <p>© {{ new Date().getFullYear() }} Get Your Apartment</p>
+        <div class="flex space-x-6">
+          <NuxtLink to="/impressum" class="hover:underline">Impressum</NuxtLink>
+          <NuxtLink to="/privacy" class="hover:underline">Datenschutz</NuxtLink>
+        </div>
+      </div>
+    </footer>
   </div>
 </template>
 
