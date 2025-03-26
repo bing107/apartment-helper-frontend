@@ -2,7 +2,7 @@
   <NuxtPage />
 </template>
 
-<script>
+<script setup>
 useHead({
   script: [
     {
