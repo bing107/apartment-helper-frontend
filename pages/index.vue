@@ -216,6 +216,10 @@ const loading = ref(false);
 const success = ref(false);
 const error = ref(false);
 
+onMounted(() => {
+  fbq("track", "ViewContent");
+});
+
 const submitEmail = async () => {
   loading.value = true;
   success.value = false;
