@@ -44,7 +44,7 @@ const signups = ref([]);
 const loading = ref(true);
 const error = ref(false);
 
-const ADMIN_KEY = config.public.adminKey;
+const ADMIN_KEY = "";
 
 onMounted(() => {
   if (route.query[emailKey] === ADMIN_KEY) {
